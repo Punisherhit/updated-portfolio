@@ -257,7 +257,7 @@ form {
     flex-direction: column;
     align-items: center;
     max-width: 800px;
-    margin-left: 300px;
+    margin: center;
 }
 
 form input, form textarea {
