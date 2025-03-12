@@ -1,6 +1,6 @@
 // Typing Effect for Greeting
 const greetingElement = document.getElementById("greeting");
-const greetings = ["Jambo","Hello", "Hola", "Bonjour", "こんにちは", "안녕하세요", "Hallo"];
+const greetings = ["","Hi","Jambo","Hello", "Hola", "Bonjour", "こんにちは", "안녕하세요", "Hallo"];
 let greetingIndex = 0;
 let charIndex = 0;
 
