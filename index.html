@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of Anthony Deric - Software Engineer & Cybersecurity Expert.">
+    <title> DERIC - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1><span id="greeting"></span>, I'm <span class="highlight">ANTHONY DERIC</span></h1>
+            <p>Software Engineer | Cybersecurity Expert</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+            <a href="Assignment- .pdf" download class="download-cv-button">Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate Software Engineer and Cybersecurity professional with expertise in building secure, scalable, and efficient systems. I specialize in software engineering, cloud security, penetration testing.</p>
+    </section>
+
+      <!-- Skills Section with Poll -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill"><span>Python</span> <div class="progress"><div class="progress-bar" style="width: 90%">90%</div></div></div>
+            <div class="skill"><span>JavaScript</span> <div class="progress"><div class="progress-bar" style="width: 85%">85%</div></div></div>
+            <div class="skill"><span>React</span> <div class="progress"><div class="progress-bar" style="width: 80%">80%</div></div></div>
+            <div class="skill"><span>Node.js</span> <div class="progress"><div class="progress-bar" style="width: 75%">75%</div></div></div>
+            <div class="skill"><span>Cybersecurity</span> <div class="progress"><div class="progress-bar" style="width: 88%">88%</div></div></div>
+            <div class="skill"><span>Cloud Security</span> <div class="progress"><div class="progress-bar" style="width: 82%">82%</div></div></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="project 1.jpg" alt="Project 1">
+                <h3>Secure Chat Application</h3>
+                <p>A real-time chat app with end-to-end encryption.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project 2.jpg" alt="Project 2">
+                <h3>Vulnerability Scanner</h3>
+                <p>A tool to detect vulnerabilities in web applications.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+                 <div class="project">
+                <img src="project 3.jpg" alt="Project 3">
+                <h3>Cloud Security Dashboard</h3>
+                <p>A dashboard that monitors and visualizes cloud security threats.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project 4.jpg" alt="Project 4">
+                <h3>AI-Powered Threat Detection</h3>
+                <p>An AI-driven security tool that identifies and neutralizes cyber threats.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Anthony Deric. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/Punisherhit" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/anton-deri-78a6b6238" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top" aria-label="Back to Top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
